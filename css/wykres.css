@@ -1,0 +1,43 @@
+button {
+    margin: 10px;
+}
+
+.chart-wrapper {
+    height: 320px;
+    margin: 0 20px;
+}
+
+.column-container {
+    position: relative;
+    width: 50px;
+    height: inherit;
+    float: left;
+    margin: 0 10px;
+    border: 1px solid #eaeaea;
+}
+
+.column {
+    position: absolute;
+    background: #00f;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    bottom: 0;
+    width: inherit;
+    padding-top: 2px;
+}
+
+.percent {
+    position: absolute;
+    text-align: center;
+    width: inherit;
+}
+
+.column-name {
+    position: absolute;
+    bottom: -25px;
+    font-weight: bold;
+    text-align: center;
+    width: inherit;
+}v
